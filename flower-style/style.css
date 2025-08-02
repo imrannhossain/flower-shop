@@ -52,7 +52,7 @@ font-size: 2rem;
 font-weight: 800;
 margin-bottom: 10px;
 }
-.featured-flowers p{
+.flower-des{
 color: rgba(39, 39, 39, 0.6);
 font-family: Lato;
 font-size: 18px;
@@ -106,6 +106,13 @@ opacity: 0.7;
     display: flex;
     justify-content: center;
 
+}
+.caption{
+    margin-top: 5px;
+   text-align: center;
+   text-decoration: underline;
+   color: black;
+   opacity: none;
 }
 
 
