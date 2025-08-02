@@ -19,7 +19,7 @@
     flex-direction: column;
     gap: 20px;
     justify-content: center;
-    
+
 }
 
 .text-section h1 {
@@ -35,7 +35,7 @@
     opacity: 0.7;
 }
 
-.text-section button {
+.btn {
     padding: 12px 30px;
     border: none;
     border-radius: 6px;
@@ -46,32 +46,36 @@
 }
 
 /* added Our Featured Flowers section  */
-.featured-flowers h3{
+.featured-flowers h3 {
     color: rgb(39, 39, 39);
-font-size: 2rem;
-font-weight: 800;
-margin-bottom: 10px;
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 10px;
 }
-.flower-des{
-color: rgba(39, 39, 39, 0.6);
-font-family: Lato;
-font-size: 18px;
-font-weight: 400;
-line-height: 30px;
-margin-bottom: 10px;
-opacity: 0.7;
+
+.flower-des {
+    color: rgba(39, 39, 39, 0.6);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 10px;
+    opacity: 0.7;
 }
-.featured-flowers{
+
+.featured-flowers {
     margin-top: 80px;
     display: grid;
     place-items: center;
 }
+
 .flowers-images {
     margin-top: 20px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr); 
-    gap: 20px; 
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
 }
+
 .flower-1 {
     width: 350px;
     height: 380px;
@@ -80,16 +84,18 @@ opacity: 0.7;
     display: flex;
     justify-content: center;
     align-items: center;
-   
+
 }
+
 .flowers-images img {
-   max-width: 70%;
-    padding-top:40px;
+    max-width: 70%;
+    padding-top: 40px;
     height: auto;
-    
+
 }
-.flower-2{
-      width: 350px;
+
+.flower-2 {
+    width: 350px;
     height: 380px;
     border-radius: 300px 300px 0 0;
     background: rgba(5, 151, 160, 0.15);
@@ -98,8 +104,8 @@ opacity: 0.7;
 
 }
 
-.flower-3{
-      width: 350px;
+.flower-3 {
+    width: 350px;
     height: 380px;
     border-radius: 300px 300px 0 0;
     background: rgba(71, 125, 17, 0.15);
@@ -107,14 +113,84 @@ opacity: 0.7;
     justify-content: center;
 
 }
-.caption{
+
+.caption {
     margin-top: 5px;
-   text-align: center;
-   text-decoration: underline;
-   color: black;
-   opacity: none;
+    text-align: center;
+    text-decoration: underline;
+    color: black;
+    opacity: none;
 }
 
+/* added two section */
+
+.two {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.support {
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    width: 65%;
+    height: 250px;
+
+}
+.support a{
+    color: black;
+    text-decoration: none;
+}
+
+
+/* added three section */
+
+
+.three{
+    margin-top: 80px;
+     background-color: rgba(229, 84, 115, 0.1);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    height: 600px;
+    place-items: center;
+    padding: 0 220px;
+   
+}
+
+.discount h2{
+    font-family: Lato;
+font-size: 2.5rem;
+font-weight: 800;
+line-height: 40px;
+margin-bottom: 15px;
+text-align: center;
+
+}
+
+.discount p{
+
+color: rgba(39, 39, 39, 0.6);
+font-size: 1.5rem;
+font-weight: 400;
+line-height: 25px;
+text-align: center;
+
+
+
+}
+.button{
+    margin-top: 40px;
+    display: grid;
+    align-items: center;
+    place-items: center;
+    
+}
 
 
 
@@ -152,9 +228,32 @@ opacity: 0.7;
         justify-content: center;
     }
 
-    .flowers-images{
+    .flowers-images {
         grid-template-columns: 1fr;
 
     }
-    
+
+    .support {
+        grid-template-columns: 1fr;
+        height: auto;
+        gap: 30px;
+    }
+
+    .three{
+        grid-template-columns: 1fr;
+        height: auto;
+    }
+    .discount p{
+        font-size: 1rem;
+
+    }
+    .discount h2{
+        margin-top: 20px;
+        font-size: 1.5rem;
+
+    }
+    .button{
+        margin-bottom: 20px;
+    }
+
 }
