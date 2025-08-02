@@ -200,6 +200,7 @@
     color:
         rgb(229, 84, 115);
 }
+/* added section four */
 
 .four {
     margin-top: 80px;
@@ -212,29 +213,37 @@
     height: 300px;
     margin-right: 5px;
     border: 2px dashed gray;
-
 }
-.four h3{
+
+.four h3 {
     color: rgb(39, 39, 39);
-font-family: Lato;
-font-size: 2.5rem;
-font-weight: 800;
-line-height: 40px;
-
-
+    font-family: Lato;
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 40px;
 }
 
 
-.four p{
+.four p {
     margin-top: 20px;
     color: rgba(39, 39, 39, 0.6);
-font-family: Lato;
-font-size: 1.5rem;
-font-weight: 400;
-line-height: 20px;
-
+    font-family: Lato;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 20px;
 }
 
+.five{
+    border: 2px solid sandybrown;
+    height: 449px;
+    text-align: center;
+    display: grid;
+    place-items: center;
+}
+.div{
+    background-image: url(../Flower/Rectangle\ 9.png);
+    background-position: center;
+}
 
 
 
@@ -302,12 +311,13 @@ line-height: 20px;
         margin-bottom: 20px;
     }
 
-    .four{
+    .four {
         place-items: center;
         text-align: center;
     }
+
     .img img {
-        
+
         height: auto;
         display: flex;
         flex-direction: column;
